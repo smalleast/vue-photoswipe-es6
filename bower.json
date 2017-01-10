@@ -1,0 +1,23 @@
+{
+  "name": "dacang-weipai",
+  "description": "Dacang-weipai",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "git@git.oschina.net:afeiship/dacang-weipai.git",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

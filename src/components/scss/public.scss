@@ -1,0 +1,195 @@
+@function toRem($inValue) {
+  $remValue: $inValue/50;
+  @return #{$remValue}rem;
+}
+
+.dc-img {
+  width: 100%;
+  display: block;
+}
+
+.dc-flex-left-top {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start; //水平方向
+  -webkit-justify-content: flex-start;
+  align-items: flex-start; //垂直方向
+  -webkit-align-items: flex-start;
+}
+
+.dc-flex-left-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.dc-flex-left-bottom {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+}
+
+.dc-flex-center-top {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+}
+
+.dc-flex-center-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.dc-flex-center-bottom {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+}
+
+.dc-flex-right-top {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+}
+
+.dc-flex-right-center {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.dc-flex-right-bottom {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+}
+
+/**rebuild padding start**/
+.p5 {
+  padding: 5px !important;
+}
+
+.px5 {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.px10 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.py5 {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.py10 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.pl5 {
+  padding-left: 5px !important;
+}
+
+.pl10 {
+  padding-left: 10px !important;
+}
+
+.pr5 {
+  padding-right: 5px !important;
+}
+
+.pr10 {
+  padding-right: 10px !important;
+}
+
+.pt10 {
+  padding-top: 10px !important;
+}
+
+/**rebuild padding end**/
+.dc-block {
+  display: inline-block;
+  width: 100%;
+}
+
+.dc-overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.c-3 {
+  color: #333;
+}
+
+.c-6 {
+  color: #666;
+}
+
+.c-8 {
+  color: #888;
+}
+
+.c-f {
+  color: #fff;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.bg-0 {
+  background: #000;
+}
+
+.wp-10 {
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
